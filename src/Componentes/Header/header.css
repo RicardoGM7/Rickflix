@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+header{ 
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;}
+
+
+    
+    .logo{
+        font-size: 24px;
+        margin: 20px;
+        text-decoration: none;
+        color: red;
+        font-weight: bold;
+        transition: 0.5s;
+    }
+
+    .logo:hover {
+        transform: scale(1.1); 
+      }
+    
+    .meusFilmes{
+        margin-right: 20px;
+        text-decoration: none;
+        background-color: white;
+        padding: 6px 10px;
+        color: black;
+        border-radius: 10px;
+        font-weight: bold;
+    }
+    
+    .login{
+        margin-right: 20px;
+        text-decoration: none;
+        background-color: white;
+        padding: 6px 10px;
+        color: red;
+        border-radius: 10px;
+        font-size: 15px;
+        font-weight: bold; 
+        cursor: pointer;
+    }
+    
