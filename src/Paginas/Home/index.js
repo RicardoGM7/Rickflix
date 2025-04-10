@@ -24,6 +24,8 @@ function Home() {
         setLoading(false)
     },[])
 
+    
+
     if(Loading) {
         return(
             <strong>Carregando Dados...</strong>

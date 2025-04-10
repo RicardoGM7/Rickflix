@@ -153,8 +153,8 @@ function Filme(){
       <span>{filme.overview}</span>
       <strong>Avalição: {filme.vote_average} / 10</strong>
       <div>
-      <button><a target='blank' href={`https://www.youtube.com/results?search_query=${filme.title} trailer`}>Trailer</a></button>
-      <button onClick= {SalvarFilme} >Salvar</button>
+      <a className='detalhes-filme-button' target='blank' href={`https://www.youtube.com/results?search_query=${filme.title} trailer`}>Trailer</a>
+      <button className='detalhes-filme-button' onClick= {SalvarFilme} >Salvar</button>
       </div>
     </div> 
     </div>
