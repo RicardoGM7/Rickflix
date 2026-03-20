@@ -10,6 +10,12 @@ Funcionalidades:
 * Navegação Paginada: Exploração do catálogo dividida em páginas para não sobrecarregar a interface.
 * Roteamento Dinâmico: Navegação rápida entre a página principal e as páginas de detalhes dos filmes sem recarregar o site.
 
+
 Tecnologias usadas: 
 
 JavaScript, React, Firebase, Css, React router
+
+
+Créditos e Aprendizado:
+
+Este projeto foi desenvolvido acompanhando as aulas do curso do **Sujeito Programador**. A construção deste catálogo guiado foi um passo fundamental nos meus estudos de front-end, pois me permitiu consolidar na prática conceitos essenciais como consumo de APIs externas, roteamento dinâmico com React Router e integração de banco de dados e autenticação utilizando o Firebase.
